@@ -1,0 +1,14 @@
+{
+  "name": "aoj-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
