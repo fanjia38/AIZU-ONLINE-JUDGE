@@ -15,7 +15,7 @@ input.split('\n').forEach(data => {
     } else {
       line = `${'#'.repeat(W)}`
     }
-    console.log(`${line}`)
+    console.log(line)
   }
   console.log('')
 })
