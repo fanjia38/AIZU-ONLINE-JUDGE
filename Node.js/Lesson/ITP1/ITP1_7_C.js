@@ -1,4 +1,5 @@
-function sum(numArray) {
+// 7_C : Spreadsheet
+function sum (numArray) {
   return numArray.reduce((prev, current) => prev + current, 0)
 }
 
