@@ -1,5 +1,4 @@
 // 7_D : Matrix Multiplication
-
 function call (input) {
   const dataset = input.split('\n')
 
@@ -22,7 +21,17 @@ function call (input) {
     listB.push(row.split(' ').map(value => parseInt(value, 10)).splice(0, l))
   }
 
-  // TODO: 行列の積を求める
+  // 行列の積を求める
+  listA.forEach(rowA => {
+    let producted = []
+    for (let indexB = 0; indexB < l; indexB++) {
+      const value = rowA.reduce((prev, current, index) => {
+        return prev + (current * listB[index][indexB])
+      }, 0)
+      producted.push(value)
+    }
+    console.log(producted.join(' '))
+  })
 }
 
 // input
