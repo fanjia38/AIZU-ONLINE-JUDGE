@@ -36,7 +36,7 @@ function call (input) {
 
   for (let index = 0; index < num; index++) {
     const [b, f, r, v] = inputList[index].split(' ').map(value => parseInt(value, 10))
-    houses[b-1][f-1][r-1] += v
+    houses[b - 1][f - 1][r - 1] += v
   }
   outputHouse(houses)
 }

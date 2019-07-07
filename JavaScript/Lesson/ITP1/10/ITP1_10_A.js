@@ -4,10 +4,10 @@
  */
 function call (input) {
   const [x1, y1, x2, y2] = input.replace(/\n/, '').split(' ')
-  const a = (x2 - x1)
-  const b = (y2 - y1)
+  const a = x2 - x1
+  const b = y2 - y1
 
-  console.log(Math.sqrt((a*a) + (b*b)))
+  console.log(Math.sqrt((a * a) + (b * b)))
 }
 
 // input

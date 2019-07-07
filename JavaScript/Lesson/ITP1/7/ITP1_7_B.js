@@ -7,7 +7,7 @@ function call (input) {
     }
 
     const [n, x] = string.split(' ').map(value => parseInt(value, 10))
-    let count = 0;
+    let count = 0
     for (let first = 1; first <= n; first++) {
       for (let second = first + 1; second <= n; second++) {
         for (let third = second + 1; third <= n; third++) {
