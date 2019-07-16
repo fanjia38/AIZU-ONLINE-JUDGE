@@ -7,7 +7,7 @@ function call (input) {
   const a = x2 - x1
   const b = y2 - y1
 
-  console.log(Math.sqrt((a * a) + (b * b)))
+  console.log(Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2)))
 }
 
 // input
