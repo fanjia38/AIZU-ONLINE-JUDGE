@@ -12,8 +12,8 @@ function calc (dataMap, p) {
 function call (input) {
   const dataList = input.split(/\n/)
   const n = parseInt(dataList[0])
-  const x = dataList[1].split(' ', n).map(val => parseInt(val))
-  const y = dataList[2].split(' ', n).map(val => parseInt(val))
+  const x = dataList[1].split(' ', n)
+  const y = dataList[2].split(' ', n)
 
   const dataMap = x.map((val, index) => {
     return { x: parseInt(val), y: parseInt(y[index]) }
