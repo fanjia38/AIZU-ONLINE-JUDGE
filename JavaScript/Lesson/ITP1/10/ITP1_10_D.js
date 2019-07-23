@@ -1,6 +1,6 @@
 /**
  * 10_D : Distance II
- * https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/10
+ * https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/10_D
  */
 function calc (dataMap, p) {
   const manh = dataMap.reduce((prev, current) => {
